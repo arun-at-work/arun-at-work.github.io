@@ -3,11 +3,13 @@
    <title>HTML Redirect</title>
    <script>
      //window.location.replace("http://www.hotstar.com/redeem");
+     if(!userAgent.match(/chrome|chromium|crios/i)){
      window.location.href = "https://www.hotstar.com/redeem";
-     window.location.assign("http://www.hotstar.com/redeem?a);
+     }
+     //window.location.assign("http://www.hotstar.com/redeem?a);
     </script>
 </head>
 <body>
-  
+  <a href="https://www.hotstar.com/redeem">Click Here</a>
 </body>
 </html>
